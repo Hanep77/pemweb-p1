@@ -11,9 +11,21 @@ body {
   line-height: 1.5;
 }
 
+.text-green-400 {
+  color: #86efac;
+}
+
+.text-blue-400 {
+  color: #93c5fd;
+}
+
+section {
+  min-height: 100vh;
+}
+
 #hero {
   position: relative;
-  min-height: 100vh;
+  border-bottom: solid #3f3f46 1px;
 }
 
 .area {
@@ -137,8 +149,6 @@ body {
 .terminal-wrapper {
   position: absolute;
   inset: 0;
-  margin: auto;
-  max-width: 768px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,6 +160,12 @@ body {
   width: 100%;
   background: #27272ab3;
   border: solid #3f3f46 1px;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  padding: 64px 0px;
 }
 
 .terminal header {
@@ -190,6 +206,41 @@ body {
 .terminal .content {
   min-height: 384px;
   padding: 4px;
+}
+
+#about {
+  background-image: linear-gradient(to bottom right, #18181b, #27272a);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: justify;
+}
+
+.image-wrapper {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  border-radius: 9999px;
+  margin: auto;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  height: 100%;
+}
+
+#about .content {
+  display: flex;
+  gap: 32px;
 }
 
 @media (min-width: 768px) {
