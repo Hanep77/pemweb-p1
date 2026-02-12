@@ -160,6 +160,7 @@ section {
   width: 100%;
   background: #27272ab3;
   border: solid #3f3f46 1px;
+  border-radius: 8px;
 }
 
 .container {
@@ -241,6 +242,25 @@ section {
 #about .content {
   display: flex;
   gap: 32px;
+}
+
+#skills {
+  background: #18181b;
+}
+
+#skills .file {
+  background: #27272a;
+  width: 100%;
+  border: solid #3f3f46 1px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#skills .file .file-name {
+  border-bottom: solid #3f3f46 1px;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
