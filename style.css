@@ -268,7 +268,8 @@ section {
   text-align: center;
 }
 
-.projects-wrapper {
+.projects-wrapper,
+.contact-wrapper {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
@@ -319,6 +320,26 @@ section {
   padding: 0px 8px;
   border-radius: 9999px;
   background: #93c5fd25;
+}
+
+#contact {
+  /* position: relative; */
+  border-top: solid #3f3f46 1px;
+}
+
+.contact-card {
+  background: #27272a;
+  padding: 16px;
+  border-radius: 8px;
+  border: solid #3f3f46 1px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-card:hover {
+  background: #27272a90;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 @media (min-width: 768px) {
