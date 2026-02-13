@@ -37,6 +37,67 @@ const projects = [
       "ReactJS",
       "TailwindCSS"
     ]
+  },
+  {
+    name: "PSA Card Submission",
+    image: "p-4.png",
+    description: "PSA Card Submission",
+    links: {
+    },
+    techStack: [
+      "Laravel"
+    ]
+  },
+  {
+    name: "Psychoolab",
+    image: "p-5.png",
+    description: "A consulting web app",
+    links: {
+      website: "https://psychoolab.com"
+    },
+    techStack: [
+      "Laravel",
+      "PHP",
+      "Bootstrap"
+    ]
+  },
+  {
+    name: "NepType",
+    image: "p-6.png",
+    description: "Typing test website",
+    links: {
+      website: "https://neptype.vercel.app",
+      github: "https://github.com/hanep77/neptype"
+    },
+    techStack: [
+      "ReactJS",
+      "TypeScript",
+      "TailwindCSS"
+    ]
+  },
+  {
+    name: "Barbershop Reservation",
+    image: "p-7.png",
+    description: "A barbershop reservation system",
+    links: {
+    },
+    techStack: [
+      "laravel",
+      "ReactJS",
+      "TypeScript",
+      "TailwindCSS"
+    ]
+  },
+  {
+    name: "Point of Sales",
+    image: "p-8.png",
+    description: "A system to help your business",
+    links: {
+    },
+    techStack: [
+      "ReactJS",
+      "TailwindCSS"
+    ]
   }
 ]
 
@@ -73,7 +134,7 @@ projects.map((project) => {
   }
 
   if (project.links.website) {
-    linkWrapper.innerHTML = `<a href="${project.links.website}"><i data-feather="github" width="18"></i></a>`;
+    linkWrapper.innerHTML += `<a href="${project.links.website}"><i data-feather="link" width="18"></i></a>`;
   }
 
   const description = document.createElement("p");

@@ -301,6 +301,11 @@ section {
   justify-content: space-between;
 }
 
+.project-info .header div {
+  display: flex;
+  gap: 4px;
+}
+
 .project-info .header a {
   color: white;
 }
