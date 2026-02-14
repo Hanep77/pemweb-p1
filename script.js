@@ -159,3 +159,4 @@ projects.map((project) => {
 });
 
 feather.replace();
+alert("welcome to my portfolio website");
